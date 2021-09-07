@@ -1,6 +1,4 @@
 # PBI-Diferença-Dias-Úteis
-Realizando o cálculo de diferença de dias úteis em DAX
-
 
 Há diversas maneiras de realizar o cálculo de dias úteis no Power BI, e infelizmente (ou não, rsrs) no Power BI não existe uma função como a Networkdays existente no Qlik. Desse modo, é necessário criar uma lógica para realizar esses cálculos, seja para realizar uma soma ou mesmo para realizar uma diferença entre duas datas. <br/>
 Nesse exemplo, o objetivo é realizar a diferença entre a data de entrega e a data de pedido desconsiderando sábados, domingos e feriados. 
